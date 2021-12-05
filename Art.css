@@ -1,0 +1,3662 @@
+  /*--------Image and image animation begins---*/
+
+
+.slides {
+  width:500%;
+  height:500px;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slides {
+  width: 20%;
+  transition: 2s;
+}
+
+
+.manual-btn {
+  border: 2px solid rgb(16, 136, 110);
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 2s;
+}
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+}
+.manual-btn:hover {
+  background: rgb(16, 136, 110);;
+}
+#radio1:checked ~ .first{
+  margin-left: 0;
+  transition: 3s;
+}
+#radio2:checked ~ .first{
+  margin-left: -500%;
+  transition: 3s;
+}
+#radio3:checked ~ .first{
+  margin-left: -1000%;
+  transition: 3s;
+}
+#radio4:checked ~ .first{
+  margin-left:-1500%;
+  transition:3s;
+}
+#radio5:checked ~ .first{
+  margin-left:-2000%;
+  transition:3s;
+}
+#radio6:checked ~ .first{
+  margin-left:-2500%;
+  transition:3s;
+}
+
+/*--CSS for automatic animation--*/
+
+.navigation-auto {
+  position: absolute;
+  display: flex;
+
+  justify-content: center;
+  margin-top: 460px;
+}
+.navigation-auto div {
+  border: solid (16, 136, 110);
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btnl{
+  background: black;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: cyan;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: cyan;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+  background: cyan;
+}
+/*---image and image animation ends-----*/
+.words {
+  display: block;
+  position: static;
+  justify-content: space-around;
+}
+
+/*--The below animation code deterines the code and color for the class PLAYFUL*/
+@-webkit-keyframes change {
+  0%{
+    color:rgba(172, 21, 21, 0.863);
+  }
+  10%{
+    color:rgb(75, 27, 10) 4;
+  }
+  20%{
+    color:green;
+  }
+  30%{
+    color:blue;
+  }
+  40%{
+    color:orange;
+  }
+  50%{
+    color:yellow;
+  }
+  60%{
+    color:#FF7D40;
+  }
+  70%{
+    color:#CD4F39;
+  }
+  80%{
+  color:#388E8E;
+  }
+  90%{
+    color:brown;
+  }
+  100%{
+    color:#71C671;
+  }
+  /*---The below code style the Copy right*/
+}
+.copyright {
+  font-size: 8pt;
+  text-align: center;
+  padding-bottom: 10px;
+  color: rgb(245, 241, 241);
+}
+
+.click:hover {
+  cursor: pointer;
+  color: red;
+}
+.edmond {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.edmond span {
+  color:red;
+}
+.show {
+  background-image: url("Screenshot_20210527-122309.png");
+  -webkit-animation:appear 20s infinite alternate;
+}
+
+@-webkit-keyframes appear{
+  0% {
+    background-image: url("img103.png");
+  }
+  50% {
+    background-image: url("Screenshot_20210527-122340.png");
+  }
+  100%{
+    background-image: url("ashim-d-silva-CwJb7ly-iqc-unsplash.jpg");
+  }
+} 
+/*Deals with the background animation*/
+@-webkit-keyframes disappear{
+  0% {
+    background-image: url("pexels-mudassir-ali-1556797.jpg");
+  }
+  50% {
+    background-image: url("pexels-pixabay-64219.jpg");
+  }
+  100%{
+    background-image: url("pexels-pixabay-414320.jpg");
+  }
+} 
+body{
+background-color: black;
+}
+  .playful  {
+  color:rgba(172, 21, 21, 0.863);
+  font-size: 24px;
+  -webkit-animation:change 20s infinite alternate;
+}
+@-webkit-keyframes come {
+  0%{
+    color:rgb(0, 0, 0);
+  }
+  10%{
+    color:rgb(30,30,30);
+  }
+  20%{
+    color:rgb(37, 9, 7);
+  }
+  30%{
+    color:rgb(70, 4, 45);
+  }
+  40%{
+    color:rgb(0, 0, 0);
+  }
+  50%{
+    color:rgb(43, 1, 1);
+  }
+  60%{
+    color:rgb(5, 15, 104);
+  }
+  70%{
+    color:rgb(3,3,3);
+  }
+  80%{
+  color:rgb(23,23,23);
+  }
+  90%{
+    color:rgb(14, 8, 8);
+  }
+  100%{
+    color:black;
+  }
+}
+.section1{
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  justify-content: center;
+  background: rgb(9, 63, 65);
+  margin-top: -72px;
+  border: groove;
+  background-size: cover;
+  margin-right: -7px;
+  margin-left: -8px;
+  background-color: #E6E6EB;
+}
+.us {
+  font-size: 20px;
+  margin-top: 150px;
+  font-weight: bolder;
+}
+.us1 {
+  font-size: 20px;
+
+  margin-top: 50px;
+
+  font-weight: bolder;
+}
+.section1 ul{
+  font-size: 20px;
+margin-top:50px;
+margin-right:50px;
+}
+.section2{
+  background-color: white;
+  margin-top: -19px;
+}
+#section3 img{
+  width: 349px
+}
+.visual{
+  width: 157px;
+  height: 30px;
+  background: radial-gradient(circle,red,blue,#BC3AB5);
+}
+ .visual1{
+   width: 164px;
+   height: 30px;
+  margin-left: 19px;
+  background: radial-gradient(circle,red,blue,#BC3AB5);
+}
+.visual2{
+  width: 150px;
+  margin-left: 90px;
+background: radial-gradient(circle,green,yellow,red);
+  
+}
+footer {
+  background-color: black;
+  margin-left: -7px;
+  margin-right: -8px;
+  height: 140px;
+  padding: 4px;
+  font-family: serif, "Cambria Math";
+  color: white;
+}
+
+@media all and (min-width:280px){
+  #vid{
+    width: 304px;
+  }
+  .button{
+    width: 50px;
+    transform: rotate(180deg);
+  }
+  .button1 {
+    width: 50px;
+    transform: rotate(360deg);
+    margin-left:170px;
+  }
+  .button2{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    
+  }
+
+  .heading h1 {
+    color:#7a790e; 
+    font-size: 50px;
+    margin-top: -5px;
+    margin-bottom: 2px;
+  }
+  .heading {
+    font-weight: bold;
+    font-family: Constantia,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:15px;
+    text-shadow: 30px 24px 12px 11px whitesmoke;
+    }
+    .start {
+      position: absolute;
+      top: 100px;
+
+    }
+    .start h2 {
+      font-family:"Microsoft Himalaya",sans-serif;
+      font-size:30px;
+      font-weight: bold;
+    }
+  section {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(9, 63, 65);
+    margin-top: -80px;
+    -webkit-animation:disappear 20s infinite alternate;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -7px;
+    margin-left: -8px;
+    
+}
+  
+  .slides img {
+    width: 260px;
+    height:400px;
+}
+  .slider {
+    width: 260px;
+    height:400px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 200px;
+    border-radius: 20px;
+}
+    .frame {
+    padding-left:20px;
+     height:10; 
+     width :50px;
+     padding-top: 20px;
+  }
+  /*Css for manualnavigation-manual*/
+
+.navigation-manual {
+  position: absolute;
+  width: 70px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  left: 70px;
+  top: 700px;
+}
+  .menu-button {
+    width: 30px;
+      height: 50px;
+      position: fixed;
+      top:-4px;
+      left:280px;
+  }
+  .menu1 {
+    position: fixed;
+    width: 30px;
+    left: 280px;
+    top: 50px;
+  }
+  .menu2{
+    position: fixed;
+    width: 30px;
+    left: 280px;
+    top: 90px;
+  }
+  .menu3{
+    width: 30px;
+    position: fixed;
+    left: 280px;
+    top: 130px;
+  }
+  .me {
+    margin-left: 90px;
+     width: 90px; 
+     height: 40px; 
+     background: radial-gradient(circle, red,white,blue);
+  }
+  #inspire span {
+    font-size: 80px;
+  
+}
+#inspire {
+  font-size:30px;
+  font-style:italic;
+}
+#inspire v {
+  font-size:20px;
+}
+.playful {
+  font-size: 22px;
+}
+
+.us {
+  
+  font-size: 20px;
+  margin-top: 10px;
+}
+.us span{
+  font-size: 40px;
+}
+.us1{
+  font-size: 20px;
+}
+.us1 img{
+  width: 30px;
+}
+.section1{
+  height: 1090px;
+  margin-top: 3px;
+}
+.section2{
+  background-image: url("Screenshot_20210527-122412.png");
+  background-position: center;
+}
+.section2 p{
+  font-size: 15px;
+  align-items: center;
+}
+.section2 img{
+  width: 20px;
+}
+#section3 img{
+  width: 310px
+}
+.visual{
+  width: 150px;
+  height: 30px;
+  font-size: 10px;
+}
+ .visual1{
+   width: 148px;
+   height: 30px;
+  margin-left: 1px;
+  font-size: 10px;
+}
+.visual2{
+  width: 150px;
+  margin-left: 90px;
+  
+}
+.baby{
+  background-image: url("bellypaint-769774_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 70px;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.shop{
+  background-image: url("people-discussion-5069845_1280.jpg");
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  height: 68px;
+}
+.shop img{
+  width: 30px;
+}
+.birth{
+  background-image: url("birthday-669968_1280.jpg");
+  background-size: 100px;
+  background-position: center;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 68px;
+}
+.birth img{
+  width: 30px;
+}
+.pass{
+  background-image: url("death-2421820_1280.jpg");
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 67px;
+}
+.pass img{
+  width: 30px;
+}
+.wed{
+  background-image: url("tablecloth-3336687_1280.jpg");
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 100px;
+}
+.wed img{
+  width: 30px;
+}
+.report{
+  width: 300px;
+  margin-left:47px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.report input{
+  height: 30px;
+  width: 174px;
+  border-radius: 30px;
+}
+.report textarea{
+  border-radius: 30px;
+  width: 174px;
+}
+.report form :last-child{
+  width:90px;
+  margin-left: 40px;
+}
+
+.pics{
+  width: 270px;
+}
+.click  {
+  transform:rotate(900deg);
+  margin-left:-5px;
+  height:30px;
+  margin-bottom: -250px;
+}
+.click2 {
+    transform:rotate(1800deg);
+    margin-left:204px;
+    height:30px;
+    margin-bottom: -250px;
+}
+#vid{
+  width: 270px;
+}
+
+}
+@media only screen and (width:320px){
+  section{
+    width: 387px;
+  }
+  .section1{
+    width: 380px;
+  }
+  .section2{
+    width: 370px;
+}
+}
+@media only screen and (min-width:360px) {
+  .visual{
+    width: 157px;
+    height: 30px;
+    background: radial-gradient(circle,red,blue,#BC3AB5);
+  }
+   .visual1{
+     width: 164px;
+     height: 30px;
+    margin-left: 19px;
+    background: radial-gradient(circle,red,blue,#BC3AB5);
+  }
+  .visual2{
+    width: 150px;
+    margin-left: 90px;
+background: radial-gradient(circle,green,yellow,red);
+    }
+    #section3 img{
+      width: 347px;
+    }
+  .heading h1 {
+    color:#7a790e; 
+    font-size: 60px;
+    margin-top: -5px;
+    margin-bottom: 2px;
+    
+  }
+  .heading {
+    font-weight: bold;
+    font-family: "Times New Roman",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:15px;
+    text-shadow: 30px 24px 12px 11px whitesmoke;
+    
+    }
+    .start {
+     position: absolute;
+     top: 130px;
+     background-position: center;
+     margin-right: 10px;
+
+    }
+    .start h2{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size:30px;
+      font-weight: bold;
+    }
+    section {
+      margin: 0px;
+      padding: 0px;
+      height: 110vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgb(9, 63, 65);
+      margin-top: -75px;
+      -webkit-animation:disappear 20s infinite alternate;
+      margin-bottom:-100px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-left: -7px;
+      margin-right: -7px;
+      
+  }
+  .slides img {
+    width: 350px;
+    height:300px;
+}
+  .slider {
+    width: 350px;
+    height:300px;
+    margin-top: -80px;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+/*Css for manualnavigation-manual*/
+
+.navigation-manual {
+  position: absolute;
+  width: 300px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  left: 40px;
+  top: 570px;
+}
+#vid{
+  width:340px;
+}
+.button{
+  width: 50px;
+  transform: rotate(180deg);
+}
+.button1 {
+  width: 50px;
+  transform: rotate(360deg);
+  margin-left:230px;
+}
+.button2{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  
+}
+  .menu-button {
+    width: 30px;
+      height: 50px;
+      position: fixed;
+      top:-4px;
+      left:328px;
+  }
+  .me {
+    margin-left: 130px;
+     width: 90px; 
+     height: 40px; 
+     background: radial-gradient(circle, red,white,blue);
+  }
+  #inspire span {
+    font-size: 90px;
+  
+}
+#inspire {
+  font-size:30px;
+  font-style:italic;
+}
+#inspire v {
+  font-size:20px;
+}
+.section1{
+  margin-top: -80px;
+  height: 1240px;
+}
+.section1 ul{
+  font-size: 20px;
+}
+
+.us1 img{
+  width: 40px;
+}
+.us{
+  margin-top: 30px;
+  font-size: 20px;
+}
+.us1{
+  font-size: 20px;
+}
+.playful{
+  font-size: 30px;
+  font-family: fantasy;
+}
+.us span{
+  font-size: 40px;
+font-family: "Lucida Bright";
+}
+.section2{
+  background-image: url("Screenshot_20210527-122412.png");
+  background-position: center;
+  font-size: 30px;
+}
+.section2 p{
+  font-size: 24px;
+}
+.section2 img{
+  width: 20px;
+}
+.menu1 {
+  position: fixed;
+  width: 30px;
+  left: 330px;
+  top: 50px;
+}
+.menu2{
+  position: fixed;
+  width: 30px;
+  left: 330px;
+  top: 90px;
+}
+.menu3{
+  width: 30px;
+  position: fixed;
+  left: 330px;
+  top: 130px;
+}
+.pics{
+  width: 342px;
+  border-radius: 30px;
+
+}
+
+.click  {
+  transform:rotate(900deg);
+  margin-left:-2px;
+  height:40px;
+  margin-bottom: -264px;
+}
+.click2 {
+    transform:rotate(1800deg);
+    margin-left:257px;
+    height:40px;
+    margin-bottom: -264px;
+}
+.baby{
+  background-image: url("bellypaint-769774_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 270px;
+  height: 70px;
+  font-size: 40px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.shop{
+  background-image: url("people-discussion-5069845_1280.jpg");
+  background-position: center;
+  background-size: 270px;
+  background-repeat: no-repeat;
+  font-size: 40px;
+  font-weight: bolder;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  height: 88px;
+}
+.shop img{
+  width: 40px;
+}
+.birth{
+  background-image: url("birthday-669968_1280.jpg");
+  background-size: 100px;
+  background-position: center;
+  font-size: 40px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 100px;
+}
+.birth img{
+  width: 40px;
+}
+.pass{
+  background-image: url("death-2421820_1280.jpg");
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 40px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 97px;
+}
+.pass img{
+  width: 40px;
+}
+.wed{
+  background-image: url("tablecloth-3336687_1280.jpg");
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 40px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 134px;
+}
+.wed img{
+  width: 40px;
+}
+.report{
+  width: 300px;
+  margin-left: 18px;
+  background-image: url("IMG_20210717_164304_053.jpg");
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.report input {
+  height: 40px;
+  border-radius: 20px;
+  border-style: groove;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 240px;
+}
+.report textarea {
+  height: 40px;
+  border-radius: 20px;
+  border-style: groove;
+  font-size: 20px;
+  margin-left: 20px;
+  width: 240px;
+}
+.report form :last-child{
+  margin-left: 110px;
+  border-radius: 0%;
+  
+}
+.report form :first-child{
+  margin-top: 30px;
+}
+#vid{
+  width: 342px;
+
+}
+
+}
+@media only screen and (min-width:375px) {
+  .heading h1 {
+    color:#7a790e; 
+    font-size: 67px;
+    margin-top: -5px;
+    margin-bottom: 2px;
+  }
+  .start {
+    position: absolute;
+    top: 140px;
+  }
+  .start h1 {
+    font-family:"Microsoft Himalaya",sans-serif;
+    font-size:30px;
+    font-weight: bold;
+  }
+  section {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(9, 63, 65);
+    margin-top: -100px;
+    -webkit-animation:disappear 20s infinite alternate;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -7px;
+    margin-left: -8px;
+}
+  .slides img {
+    width: 370px;
+    height:300px;
+}
+  .slider {
+    width: 370px;
+    height:300px;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+/*Css for manualnavigation-manual*/
+
+.navigation-manual {
+  position: absolute;
+  width: 300px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  left: 40px;
+  top: 550px;
+}
+  .frame {
+    padding-left:20px;
+     height:350; 
+     width :600;
+     padding-top: 20px;
+  }
+  .menu-button {
+    width: 30px;
+      height: 50px;
+      position: fixed;
+      top:-4px;
+      left:328px;
+  }
+  .me {
+    margin-left: 100px;
+     width: 150px; 
+     height: 40px; 
+     background: radial-gradient(circle, red,white,blue);
+  }
+  #inspire span {
+    font-size: 100px;
+  
+}
+#inspire {
+  font-size:20px;
+  font-style:italic;
+}
+#inspire v {
+  font-size:20px;
+}
+
+.section1 {
+  margin-top: -90px;
+}
+.us {
+
+  font-size: 20px;
+}
+.us span{
+  font-size: 50px;
+}
+.us1{
+  font-size: 20px;
+}
+.section1 ul{
+  font-size: 15px;
+}
+.section2 p{
+  font-size: 27px;
+  align-items: center;
+}
+#section3 img{
+  width: 360px;
+}
+.visual1{
+  margin-left: 1px;
+  width: 174px;
+}
+.visual{
+  width: 180px;
+}
+.report{
+  margin-left: 32px;
+}
+.report input{
+  width: 250px;
+}
+.report textarea{
+  width: 250px;
+}
+.pics{
+  width: 360px;
+  border-radius: 40px;
+}
+.click2{
+  margin-left: 276px;
+}
+#vid{
+  width: 360px;
+}
+}
+@media all  and (min-width:320px) {
+  #vid{
+    width: 304px;
+  }
+  .button{
+    width: 50px;
+    transform: rotate(180deg);
+  }
+  .button1 {
+    width: 50px;
+    transform: rotate(360deg);
+    margin-left:200px;
+  }
+  .button2{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    
+  }
+
+  .heading h1 {
+    color:#7a790e; 
+    font-size: 70px;
+    margin-top: -5px;
+    margin-bottom: 2px;
+  }
+  .heading {
+    font-weight: bold;
+    font-family: Constantia,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:15px;
+    text-shadow: 30px 24px 12px 11px whitesmoke;
+    }
+    .start {
+      position: absolute;
+      top: 100px;
+
+    }
+    .start h2 {
+      font-family:"Microsoft Himalaya",sans-serif;
+      font-size:50px;
+      font-weight: bold;
+    }
+  section {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(9, 63, 65);
+    margin-top: -80px;
+    -webkit-animation:disappear 20s infinite alternate;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -7px;
+    margin-left: -8px;
+    
+}
+  
+  .slides img {
+    width: 360px;
+    height:400px;
+}
+  .slider {
+    width: 360px;
+    height:400px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 200px;
+}
+    .frame {
+    padding-left:20px;
+     height:10; 
+     width :50px;
+     padding-top: 20px;
+  }
+  /*Css for manualnavigation-manual*/
+
+.navigation-manual {
+  position: absolute;
+  width: 300px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  left: 30px;
+  top: 700px;
+}
+  .menu-button {
+    width: 30px;
+      height: 50px;
+      position: fixed;
+      top:-4px;
+      left:280px;
+  }
+  .menu1 {
+    position: fixed;
+    width: 30px;
+    left: 280px;
+    top: 50px;
+  }
+  .menu2{
+    position: fixed;
+    width: 30px;
+    left: 280px;
+    top: 90px;
+  }
+  .menu3{
+    width: 30px;
+    position: fixed;
+    left: 280px;
+    top: 130px;
+  }
+  .me {
+    margin-left: 120px;
+     width: 90px; 
+     height: 40px; 
+     background: radial-gradient(circle, red,white,blue);
+  }
+  #inspire span {
+    font-size: 80px;
+  
+}
+#inspire {
+  font-size:30px;
+  font-style:italic;
+}
+#inspire v {
+  font-size:20px;
+}
+.playful {
+  font-size: 22px;
+}
+
+.us {
+  
+  font-size: 20px;
+  margin-top: 10px;
+}
+.us span{
+  font-size: 40px;
+}
+.us1{
+  font-size: 20px;
+}
+.us1 img{
+  width: 30px;
+}
+.section1{
+  height: 1050px;
+  margin-top: 3px;
+}
+.section2{
+  background-image: url("Screenshot_20210527-122412.png");
+  background-position: center;
+}
+.section2 p{
+  font-size: 15px;
+  align-items: center;
+}
+.section2 img{
+  width: 20px;
+}
+#section3 img{
+  width: 310px
+}
+.visual{
+  width: 150px;
+  height: 30px;
+  font-size: 10px;
+}
+ .visual1{
+   width: 148px;
+   height: 30px;
+  margin-left: 1px;
+  font-size: 10px;
+}
+.visual2{
+  width: 150px;
+  margin-left: 90px;
+  
+}
+.baby{
+  background-image: url("bellypaint-769774_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
+  height: 70px;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.shop{
+  background-image: url("people-discussion-5069845_1280.jpg");
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  font-weight: bolder;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  height: 68px;
+}
+.shop img{
+  width: 30px;
+}
+.birth{
+  background-image: url("birthday-669968_1280.jpg");
+  background-size: 100px;
+  background-position: center;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 68px;
+}
+.birth img{
+  width: 30px;
+}
+.pass{
+  background-image: url("death-2421820_1280.jpg");
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 67px;
+}
+.pass img{
+  width: 30px;
+}
+.wed{
+  background-image: url("tablecloth-3336687_1280.jpg");
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 30px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 100px;
+}
+.wed img{
+  width: 30px;
+}
+.report{
+  width: 300px;
+  margin-left:80px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.report input{
+  height: 30px;
+  width: 174px;
+  border-radius: 30px;
+}
+.report textarea{
+  border-radius: 30px;
+  width: 174px;
+}
+.report form :last-child{
+  width:90px;
+  margin-left: 40px;
+}
+
+.pics{
+  width: 370px;
+}
+.click  {
+  transform:rotate(900deg);
+  margin-left:-5px;
+  height:40px;
+  margin-bottom: -264px;
+}
+.click2 {
+    transform:rotate(1800deg);
+    margin-left:330px;
+    height:40px;
+    margin-bottom: -250px;
+}
+#vid{
+  width: 370px;
+}
+
+}
+@media only screen and (width:320px){
+  section{
+    width: 387px;
+  }
+  .section1{
+    width: 380px;
+  }
+  .section2{
+    width: 370px;
+}
+}
+@media only screen and (min-width:360px) {
+  .visual{
+    width: 157px;
+    height: 30px;
+    background: radial-gradient(circle,red,blue,#BC3AB5);
+  }
+   .visual1{
+     width: 164px;
+     height: 30px;
+    margin-left: 19px;
+    background: radial-gradient(circle,red,blue,#BC3AB5);
+  }
+  .visual2{
+    width: 150px;
+    margin-left: 90px;
+background: radial-gradient(circle,green,yellow,red);
+    }
+    #section3 img{
+      width: 347px;
+    }
+  .heading h1 {
+    color:#7a790e; 
+    font-size: 60px;
+    margin-top: -5px;
+    margin-bottom: 2px;
+    
+  }
+  .heading {
+    font-weight: bold;
+    font-family: "Times New Roman",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:15px;
+    text-shadow: 30px 24px 12px 11px whitesmoke;
+    
+    }
+    .start {
+     position: absolute;
+     top: 130px;
+     background-position: center;
+     margin-right: 10px;
+
+    }
+    .start h2{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size:30px;
+      font-weight: bold;
+    }
+    section {
+      margin: 0px;
+      padding: 0px;
+      height: 110vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgb(9, 63, 65);
+      margin-top: -75px;
+      -webkit-animation:disappear 20s infinite alternate;
+      margin-bottom:-100px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-left: -7px;
+      margin-right: -7px;
+      
+  }
+  .slides img {
+    width: 350px;
+    height:300px;
+}
+  .slider {
+    width: 350px;
+    height:300px;
+    margin-top: -80px;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+/*Css for manualnavigation-manual*/
+
+.navigation-manual {
+  position: absolute;
+  width: 300px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  left: 40px;
+  top: 570px;
+}
+#vid{
+  width:340px;
+}
+.button{
+  width: 50px;
+  transform: rotate(180deg);
+}
+.button1 {
+  width: 50px;
+  transform: rotate(360deg);
+  margin-left:230px;
+}
+.button2{
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  
+}
+  .menu-button {
+    width: 30px;
+      height: 50px;
+      position: fixed;
+      top:-4px;
+      left:328px;
+  }
+  .me {
+    margin-left: 130px;
+     width: 90px; 
+     height: 40px; 
+     background: radial-gradient(circle, red,white,blue);
+  }
+  #inspire span {
+    font-size: 90px;
+  
+}
+#inspire {
+  font-size:30px;
+  font-style:italic;
+}
+#inspire v {
+  font-size:20px;
+}
+.section1{
+  margin-top: -80px;
+  height: 1240px;
+}
+.section1 ul{
+  font-size: 20px;
+}
+
+.us1 img{
+  width: 40px;
+}
+.us{
+  margin-top: 30px;
+  font-size: 20px;
+}
+.us1{
+  font-size: 20px;
+}
+.playful{
+  font-size: 30px;
+  font-family: fantasy;
+}
+.us span{
+  font-size: 40px;
+font-family: "Lucida Bright";
+}
+.section2{
+  background-image: url("Screenshot_20210527-122412.png");
+  background-position: center;
+  font-size: 30px;
+}
+.section2 p{
+  font-size: 24px;
+}
+.section2 img{
+  width: 20px;
+}
+.menu1 {
+  position: fixed;
+  width: 30px;
+  left: 330px;
+  top: 50px;
+}
+.menu2{
+  position: fixed;
+  width: 30px;
+  left: 330px;
+  top: 90px;
+}
+.menu3{
+  width: 30px;
+  position: fixed;
+  left: 330px;
+  top: 130px;
+}
+.pics{
+  width: 342px;
+  border-radius: 30px;
+
+}
+
+.click  {
+  transform:rotate(900deg);
+  margin-left:-2px;
+  height:40px;
+  margin-bottom: -264px;
+}
+.click2 {
+    transform:rotate(1800deg);
+    margin-left:257px;
+    height:40px;
+    margin-bottom: -264px;
+}
+.baby{
+  background-image: url("bellypaint-769774_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 270px;
+  height: 70px;
+  font-size: 40px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+.shop{
+  background-image: url("people-discussion-5069845_1280.jpg");
+  background-position: center;
+  background-size: 270px;
+  background-repeat: no-repeat;
+  font-size: 40px;
+  font-weight: bolder;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  height: 88px;
+}
+.shop img{
+  width: 40px;
+}
+.birth{
+  background-image: url("birthday-669968_1280.jpg");
+  background-size: 100px;
+  background-position: center;
+  font-size: 40px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 100px;
+}
+.birth img{
+  width: 40px;
+}
+.pass{
+  background-image: url("death-2421820_1280.jpg");
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 40px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 97px;
+}
+.pass img{
+  width: 40px;
+}
+.wed{
+  background-image: url("tablecloth-3336687_1280.jpg");
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 40px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  height: 134px;
+}
+.wed img{
+  width: 40px;
+}
+.report{
+  width: 300px;
+  margin-left: 18px;
+  background-image: url("IMG_20210717_164304_053.jpg");
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.report input {
+  height: 40px;
+  border-radius: 20px;
+  border-style: groove;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  width: 240px;
+}
+.report textarea {
+  height: 40px;
+  border-radius: 20px;
+  border-style: groove;
+  font-size: 20px;
+  margin-left: 20px;
+  width: 240px;
+}
+.report form :last-child{
+  margin-left: 110px;
+  border-radius: 0%;
+  
+}
+.report form :first-child{
+  margin-top: 30px;
+}
+#vid{
+  width: 342px;
+
+}
+
+}
+@media only screen and (min-width:375px) {
+  .heading h1 {
+    color:#7a790e; 
+    font-size: 67px;
+    margin-top: -5px;
+    margin-bottom: 2px;
+  }
+  .start {
+    position: absolute;
+    top: 140px;
+  }
+  .start h1 {
+    font-family:"Microsoft Himalaya",sans-serif;
+    font-size:30px;
+    font-weight: bold;
+  }
+  section {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(9, 63, 65);
+    margin-top: -100px;
+    -webkit-animation:disappear 20s infinite alternate;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -7px;
+    margin-left: -8px;
+}
+  .slides img {
+    width: 370px;
+    height:300px;
+}
+  .slider {
+    width: 370px;
+    height:300px;
+    border-radius: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding-top: 100px;
+}
+/*Css for manualnavigation-manual*/
+
+.navigation-manual {
+  position: absolute;
+  width: 300px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  left: 40px;
+  top: 550px;
+}
+  .frame {
+    padding-left:20px;
+     height:350; 
+     width :600;
+     padding-top: 20px;
+  }
+  .menu-button {
+    width: 30px;
+      height: 50px;
+      position: fixed;
+      top:-4px;
+      left:328px;
+  }
+  .me {
+    margin-left: 100px;
+     width: 150px; 
+     height: 40px; 
+     background: radial-gradient(circle, red,white,blue);
+  }
+  #inspire span {
+    font-size: 100px;
+  
+}
+#inspire {
+  font-size:20px;
+  font-style:italic;
+}
+#inspire v {
+  font-size:20px;
+}
+
+.section1 {
+  margin-top: -90px;
+}
+.us {
+
+  font-size: 20px;
+}
+.us span{
+  font-size: 50px;
+}
+.us1{
+  font-size: 20px;
+}
+.section1 ul{
+  font-size: 15px;
+}
+.section2 p{
+  font-size: 27px;
+  align-items: center;
+}
+#section3 img{
+  width: 360px;
+}
+.visual1{
+  margin-left: 1px;
+  width: 174px;
+}
+.visual{
+  width: 180px;
+}
+.report{
+  margin-left: 32px;
+}
+.report input{
+  width: 250px;
+}
+.report textarea{
+  width: 250px;
+}
+.pics{
+  width: 360px;
+  border-radius: 40px;
+}
+.click2{
+  margin-left: 276px;
+}
+#vid{
+  width: 360px;
+}
+}
+@media all and (min-width:384px){
+  section{
+    margin-top: -90px;
+    height: 900px;
+  }
+  .slider{
+    margin-top: 90px;
+  }
+  .button1{
+    margin-left: 255px;
+  }
+  #vid{
+    width: 370px;
+  }
+  #section3 img{
+  width: 370px;
+  }
+  .shop{
+    background-size: 290px;
+  }
+  .pass{
+    background-size: 290px;
+  }
+  .wed{
+    background-size: 290px;
+  }
+  .pics{
+    width: 370px;
+  }
+  .click2{
+    margin-left: 330px;
+  }
+  #inspire{
+    font-size: 30px;
+  }
+
+}
+@media all and (min-width:411px) {
+  #vid{
+    width: 390px;
+  }
+  .button1{
+    margin-left: 275px;
+  }
+  .start p {
+    font-family:"Microsoft Himalaya",sans-serif;
+    font-size:30px;
+    font-weight: bold;
+  }
+  .heading {
+    background-image: url("kisspng-sandy-beach-vector-cartoon-sea-sunset-5a91f6f6261437.018454981519515382156.png"), url("5a2f2b8d7e46d6.8758366415130407815172.png");
+    background-repeat: no-repeat, repeat-x;
+    background-size: 400px, 110px;
+    background-position: center, left;
+    font-weight: bold;
+    font-family: Constantia,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:70px;
+    text-shadow: 30px 24px 12px 11px whitesmoke;
+    margin-left: -9px;
+    margin-right: -7px;
+    margin-top: -8px;
+    }
+    .heading h1{
+      font-size: 80px;
+    }
+    .start {
+top: 112px;
+
+    }
+    .start h2{
+      font-size: 40px;
+    }
+  section {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(9, 63, 65);
+    margin-top: -100px;
+    -webkit-animation:disappear 20s infinite alternate;
+    margin-bottom:-100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: -7px;
+    margin-left: -8px;
+}
+  .slides img {
+    width: 400px;
+    height:400px;
+    border-radius: 40px;
+    border-top-right-radius: 40px;
+}
+  .slider {
+    width: 400px;
+    height:400px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 100px;
+    border-radius: 40px;
+}
+/*Css for manualnavigation-manual*/
+
+.navigation-manual {
+  position: absolute;
+  width: 300px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  left: 50px;
+  top: 720px;
+}
+.frame {
+  padding-left:40px;
+   height:350; 
+   width :600;
+   padding-top: 20px;
+}
+.menu-button {
+  width: 40px;
+    height: 50px;
+    position: fixed;
+    top:5px;
+    left:360px;
+}
+.menu1{
+  left: 364px;
+}
+.menu2{
+  left: 364px;
+}
+.menu3{
+  left: 364px;
+}
+.me {
+  margin-left: 150px;
+   width: 100px; 
+   height: 40px; 
+   background: radial-gradient(circle, red,white,blue);
+}
+#inspire {
+  font-size:40px;
+  font-style:italic;
+}
+#inspire v {
+  font-size:24px;
+}
+#inspire span{
+  font-size: 120px;
+}
+.section1{
+  height: 1480px;
+}
+.section1 ul{
+  font-size: 17px;
+}
+.us{
+  font-size: 25px;
+}
+.us span{
+  font-size: 70px;
+}
+.us1{
+  font-size: 25px;
+}
+.section2 p{
+  font-size: 30px;
+}
+#section3 img{
+  width: 403px;
+}
+.visual{
+  width: 200px;
+}
+.visual1{
+  width: 190px;
+}
+.visual2{
+  margin-left: 1px;
+  width: 400px;
+}
+.baby{
+  font-size: 50px;
+  background-size: 320px;
+  height: 100px;
+}
+.shop{
+  font-size: 50px;
+  background-size: 320px;
+  height: 105px;
+}
+.birth{
+  font-size: 50px;
+  height: 159px;
+}
+.pass{
+  font-size: 50px;
+  background-size: 320px;
+  height: 110px;
+}
+.wed{
+  font-size: 50px;
+  background-size: 320px;
+  height: 160px;
+}
+.report{
+  background-size: 700px;
+  width: 340px;
+  margin-left: 34px;
+}
+.report input{
+width: 300px;
+}
+.report textarea{
+  width: 300px;
+}
+.report form :last-child{
+  width: 117px;
+}
+.pics{
+  width: 398px;
+}
+.click2{
+  margin-left: 300px;
+  margin-bottom: -311px;
+}
+.click{
+  margin-bottom: -300px;
+}
+#vid{
+  width: 398px;
+}
+
+}
+@media all and (min-width:412px) {
+  .click2{
+    margin-left:310px;
+    margin-bottom: -300px;
+  }
+  #vid{
+    width: 398px;
+  }
+}
+
+@media all and (width: 480px) {
+  .menu-button {
+    width:45px;
+    left: 400px;
+  }
+  .menu1{
+    left: 410px;
+  }
+  .menu2{
+    left: 410px;
+  }
+  .menu3{
+    left: 410px;
+  }
+  .heading h1{
+    font-size: 90px;
+  }
+  section {
+    margin-top: -175px;
+  }
+  .start h2{
+    font-size: 40px;
+  }
+  .playful {
+    font-size: 30px;
+  }
+  .slides img {
+    width: 460px;
+  }
+  .me {
+    margin-left: 184px;
+  }
+  #vid{
+    width: 450px;
+  }
+.button1{
+  margin-left: 350px;
+}
+#section3 img{
+  width: 470px;
+}
+.visual1{
+  width: 220px;
+}
+.visual{
+  width: 235px;
+}
+.slides img{
+  width: 400px;
+}
+.slider{
+  width: 400px;
+}
+.baby{
+  background-size: 400px;
+}
+.shop{
+  background-size: 387px;
+}
+.birth{
+  height: 100px;
+}
+.pass{
+  background-size: 387px;
+}
+.wed{
+  background-size: 387px;
+}
+.report{
+  margin-left: 70px;
+}
+.pics{
+  width: 460px;
+}
+.click2{
+  margin-left: 374px;
+}
+#vid{
+  width: 460px;
+}
+}
+@media all and (min-width:540px){
+.slides img{
+  width: 500px;
+}
+.slider{
+  width: 500px;
+}
+.baby{
+  background-size: 500px;
+}
+.wed{
+  background-size: 500px;
+}
+.pass{
+  background-size: 500px;
+}
+.shop{
+  background-size: 500px;
+}
+.report{
+  margin-left: 80px;
+}
+.me{
+  margin-left: 200px;
+}
+.pics{
+  width: 520px;
+}
+#vid{
+  width: 520px;
+}
+.click2{
+  margin-left: 440px;
+}
+.button1{
+  margin-left: 400px;
+}
+.navigation-manual{
+  left: 140px;
+}
+}
+@media all and (min-width: 568px){
+  section{
+    height:900px;
+    margin-top: -130px;
+  }
+  .heading h1{
+    font-size: 100px;
+  }
+  .slider{
+    width: 500px;
+  }
+  .slides img{
+    width: 500px;
+  }
+  .navigation-manual {
+    
+    left: 130px;
+  }
+  .baby{
+    background-size: 500px;
+  }
+  .shop{
+    background-size: 500px;
+  }
+  .wed{
+    background-size: 500px;
+  }
+  .pass{
+    background-size: 500px;
+  }
+  .me{
+    margin-left: 220px;
+  }
+  .report{
+    margin-left: 100px;
+  }
+  .pics{
+    width: 550px;
+  }
+  #vid{
+    width: 550px;
+  }
+  .click2{
+    margin-left: 456px;
+  }
+  .button1{
+    margin-left: 456px;
+  }
+}
+
+@media all and (min-width: 600px) {
+ .heading{
+   height: 100px;
+   font-family: "Times New Roman",Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .heading h1 {
+   font-size: 100px;
+ }
+  .me {
+    margin-left: 190px;
+    width: 200px;
+    font-size: 20px;
+  }
+  .slider{
+
+    width: 580px;
+    height: 600px;
+    margin-top: 100px;
+    border-top-right-radius: 90px;
+  }
+  .slides img {
+    width: 580px;
+    height: 600px;
+  }
+  #radio1:checked ~ .first{
+    margin-left: 0;
+    transition: 3s;
+  }
+  #radio2:checked ~ .first{
+    margin-left: -500%;
+    transition: 3s;
+  }
+  #radio3:checked ~ .first{
+    margin-left: -1000%;
+    transition: 3s;
+  }
+  #radio4:checked ~ .first{
+    margin-left:-1500%;
+    transition:3s;
+  }
+  #radio5:checked ~ .first{
+    margin-left:-2000%;
+    transition:3s;
+  }
+  #radio6:checked ~ .first{
+    margin-left:-2500%;
+    transition:3s;
+  }
+  #inspire {
+    font-size: 50px;
+  }
+  #inspire v{
+    font-size: 30px;
+  }
+  #inspire span{
+    font-size: 170px;
+  }
+  .start{
+    position: absolute;
+    top: 220px;
+  }
+  .start h2{
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  section{
+    margin-top: -100px;
+    height: 1300px;
+  }
+  .us span  {
+    font-size: 70px;
+    font-family: fantasy;
+  }
+  .menu-button {
+    left: 550px;
+  }
+  .navigation-manual {
+    left: 150px;
+    top: 1100px;
+  }
+  .section1{
+    height: 1930px;
+  }
+  .section1 img {
+    width: 70px;
+  }
+  .section1 li img{
+    width: 90px;
+  }
+  .section1 ul{
+    font-size: 23px;
+  }
+  .us{
+    font-size: 40px;
+    margin-top: -3px;
+  }
+  .us1{
+    font-size: 40px;
+  }
+  .section2 p{
+    font-size: 30px;
+  }
+  #vid{
+    width:580px;
+  }
+  .button{
+    width: 50px;
+    transform: rotate(180deg);
+  }
+  .button1{
+    margin-left: 470px;
+  }
+  .section2 p{
+    font-size: 40px;
+  }
+  #section3 img{
+    width: 588px;
+  }
+  .visual{
+width: 300px;
+  }
+  .visual1{
+width: 281px;
+margin-left: -1px;
+  }
+  .visual2{
+width: 593px;
+margin-left: -5px;
+  }
+  .menu1{
+    left: 550px;
+width: 40px;
+top: 117px;
+  }
+  .menu2{
+    left: 550px;
+width: 40px;
+top: 170px;
+  }
+  .menu3{
+left: 550px;
+width: 40px;
+top: 220px;
+  }
+  .shop{
+    font-size: 70px;
+    background-size: 500px;
+    height: 153px;
+  }
+  .shop img{
+    height: 70px;
+  }
+  .birth{
+    font-size: 70px;
+    background-size:240px;
+    height: 170px;
+  }
+  .pass{
+    font-size: 70px;
+    background-size: 499px;
+    height: 153px;
+  }
+  .pass img{
+    height: 70px;
+  }
+  .wed{
+    font-size: 62px;
+    background-size: 499px;
+    height: 147px;
+  }
+  .wed img{
+    height: 70px;
+  }
+  .baby{
+    font-size: 70px;
+    background-size: cover;
+  }
+  .copyright{
+    font-size: 30px;
+  }
+  .pics{
+    width: 580px;
+  }
+  .click{
+    height: 70px;
+    margin-bottom: -400px;
+  }
+  .click2{
+    height: 70px;
+    margin-bottom: -400px;
+    margin-left: 433px;
+  }
+  .report{
+    background-size: 700px;
+    width: 530px;
+    margin-left: 20px;
+  }
+  .report input{
+    width: 440px;
+    height: 70px;
+    margin-left: 40px;
+  }
+  .report textarea{
+    width: 440px;
+    height: 70px;
+    margin-left: 40px;
+  }
+  .report form :last-child{
+    width: 200px;
+    margin-left: 170px;
+  }
+}
+@media only screen and (min-width: 640px) {
+    
+  .slides img {
+    width: 600px;
+    height:300px;
+}
+  .slider {
+    width: 600px;
+    height:300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/*Css for manualnavigation-manual*/
+
+.navigation-manual {
+  position: absolute;
+  width: 300px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+  left: 180px;
+  top: 650px;
+}
+.frame {
+  padding-left:150px;
+   height:350; 
+   width :600;
+   padding-top: 20px;
+}
+.start {
+  top: 170px;
+
+}
+.start h2 {
+  font-family:"Microsoft Himalaya",sans-serif;
+  font-size:60px;
+  font-weight: bold;
+}
+section {
+  margin: 0px;
+  padding: 0px;
+  height: 240vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(9, 63, 65);
+  margin-top: -100px;
+  -webkit-animation:disappear 20s infinite alternate;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: -7px;
+  margin-left: -8px;
+}
+#inspire {
+  font-size:30px;
+  font-style:italic;
+}
+#inspire v {
+  font-size:20px;
+}
+#inspire span {
+  font-size: 80px;
+
+}
+.menu-button {
+  width: 30px;
+    height: 50px;
+    position: fixed;
+    top:-4px;
+    left:600px;
+}
+.menu1{
+  left: 597px;
+}
+.menu2{
+  left: 597px;
+}
+.menu3{
+  left: 597px;
+}
+.me {
+  margin-left: 235px;
+   width: 150px; 
+   height: 40px; 
+   background: radial-gradient(circle, red,white,blue);
+}
+.playful {
+  font-size: 30px;
+}
+.section1{
+  margin-top: -100px;
+  height: 1600px;
+}
+.section1 ul{
+  font-size: 18px;
+}
+.us{
+  font-size: 30px;
+}
+.us1{
+  font-size: 30px;
+}
+#section3 img{
+  width: 308px;
+}
+.visual1{
+  width: 314px;
+}
+.baby{
+  font-size: 60px;
+  background-size: cover;
+}
+.shop{
+  background-size: 600px;
+  font-size: 60px;
+}
+.birth{
+  font-size: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pass{
+  background-size: 600px;
+  font-size: 60px;
+}
+.wed{
+  background-size: 600px;
+  font-size: 60px;
+}
+.pics{
+  width: 627px;
+  height: 400px;
+}
+.click{
+  height: 30px;
+  margin-bottom:-430px
+}
+.click2{
+  height: 30px;
+  margin-bottom: -430px;
+  margin-left: 559px;
+}
+/*The below code deals with the video*/
+#vid{
+  width: 627px;
+}
+.report{
+  margin-left: 30px;
+}
+.pics{
+  height: 700px;
+}
+
+}
+@media all and (min-width:653px){
+  section{
+    height: 800px;
+  }
+}
+@media all and (min-width:720px){
+  section{
+    height: 1000px;
+  }
+  .start h2{
+    font-size: 90px;
+  }
+  .slides img{
+    height: 400px;
+  }
+  .slider{
+    height: 400px;
+  }
+  .shop{
+background-size: 700px;
+  }
+  .wed{
+    background-size: 700px;
+      }
+      .pass{
+        background-size: 700px;
+          }
+          .report{
+            margin-left: 90px;
+          }
+          .me{
+            margin-left: 270px;
+          }
+          .pics{
+            width: 700px;
+          }
+          #vid{
+            width: 700px;
+          }
+          .click2{
+            margin-left: 630px;
+          }
+          .button1{
+            margin-left: 600px;
+          }
+}
+@media only screen and (width:731px){
+  .start h2{
+    font-size: 90px;
+  }
+  .report{
+    margin-left: 100px;
+  }
+  .me{
+    margin-left: 300px;
+  }
+  .pics{
+    width: 718px;
+  }
+  .click2{
+    margin-left: 650px;
+  }
+}
+@media all and (width:736px){
+  .report{
+    margin-left: 94px;
+  }
+  .me{
+    margin-left: 290px;
+  }
+  .pics{
+    width:719px
+  }
+  .click2{
+    margin-left: 650px;
+  }
+  .shop{
+    background-size: 820px;
+  }
+  .wed{
+    background-size: 820px;
+  }
+  .birth{
+    background-size: 820px;
+  }
+  .pass{
+    background-size: 820px;
+  }
+#vid{
+  width:719px;
+}
+.button1{
+  margin-left: 600px;
+}
+.start h2{
+  font-size: 100px;
+}
+}
+    
+
+
+
+
+
+    @media only screen and (min-width:768px){
+/*-----THe below code regulates the headin of the page when its being run on a computer*/
+      #vid{
+        width: 747px;
+      }
+      .button1{
+        margin-left: 630px;
+      }
+        .heading h1 {
+          color:#7a790e; 
+          font-size: 120px;
+          
+        }
+    
+    /*----deals with the class START---*/
+    .start {
+      position: absolute;
+      top: 200px;
+    }
+    .start h2{
+      font-size: 70px;
+    }
+       .menu-button {
+         width: 50px;
+        height: 50px;
+        position:fixed;
+        top:50px;
+        left:700px;
+       }
+       .menu1{
+         left: 704px;
+       }
+       .menu2{
+        left: 704px;
+      }
+      .menu3{
+        left: 704px;
+      }
+       
+       /*Heading ends here*/
+       /*The below code deals with the slide animation when its being run on a computer*/
+        .navigation-auto {
+          position: absolute;
+          display: flex;
+          width: 700px;
+          justify-content: center;
+          margin-top: 460px;
+        }
+        .navigation-manual {
+          position: absolute;
+     width: 800px;
+     margin-top: 5px;
+     display: flex;
+     justify-content: center;
+     top: 700px;
+     left: 10px;
+         }
+          #radio1:checked ~ .first{
+              margin-left: 0;
+              transition: 3s;
+          }
+          #radio2:checked ~ .first{
+              margin-left: -500%;
+              transition: 3s;
+          }
+          #radio3:checked ~ .first{
+              margin-left: -1000%;
+              transition: 3s;
+          }
+          #radio4:checked ~ .first{
+              margin-left: -1500%;
+              transition: 3s;
+          }
+        .slider {
+          width: 720px;
+          height:500px;
+          border-radius: 10px;
+          overflow: hidden;
+          margin-top: 50px;
+      }
+           .slides img {
+             width: 720px;
+             height:500px;
+        }
+        section {
+          height: 110vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: rgb(9, 63, 65);
+          margin-top: -100px;
+          -webkit-animation: disappear 20s infinite alternate;
+        
+        }
+       
+        footer {
+          background-color: black;
+          margin-left: -7px;
+          margin-right: -8px;
+          height: 140px;
+          padding: 4px;
+          font-family: serif, "Cambria Math";
+          color: white;
+        }
+        #inspire {
+          font-size: 70px;
+          font-style: italic;
+        }
+        #inspire v {
+          font-size: 40px;
+          font-style: normal;
+        }
+        #inspire span {
+          font-size: 200px;
+        }
+        .playful  {
+          color:rgba(172, 21, 21, 0.863);
+          font-size: 55px;
+          -webkit-animation:change 20s infinite alternate;
+          font-style: normal;
+        }
+       
+    
+
+
+  .me {
+    margin-left: 297px;
+    width: 190px; 
+    height: 70px; 
+    background: radial-gradient(circle, red,white,blue);
+  }
+  .copyright {
+    font-size: 15pt;
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(245, 241, 241);
+  }
+  .frame {
+    padding-left:340px;
+     height: 350; 
+     width :600px;
+  }
+  .section1{
+    height: 1800px;
+  }
+  .section1 ul{
+    font-size: 30px;
+  }
+  .us{
+    font-size: 40px;
+    margin-top: -17px;
+  }
+  .us span{
+    font-size: 90px;
+  }
+  .us1{
+    font-size: 40px;
+  }
+  .shop{
+    font-size: 70px;
+    background-size: 680px;
+    height: 153px;
+  }
+  .shop img{
+    height: 70px;
+  }
+  .birth{
+    font-size: 70px;
+    background-size:cover;
+    height: 168px;
+  }
+  .pass{
+    font-size: 70px;
+    background-size: 680px;
+    height: 153px;
+  }
+  .pass img{
+    height: 70px;
+  }
+  .wed{
+    font-size: 62px;
+    background-size: 680px;
+    height: 153px;
+  }
+  .wed img{
+    height: 70px;
+  }
+  .baby{
+    font-size: 70px;
+    background-size: 680px;
+    height: 140px;
+  }
+  .section2 p {
+    font-size: 40px;
+  }
+  .report{
+    margin-left: 120px;
+  }
+  .report input{
+    font-size: 30px;
+  }
+  .report textarea{
+    font-size: 30px;
+  }
+  #section3 img{
+    width: 755px;
+  }
+  .pics{
+    width: 747px;
+    height: 700px;
+  }
+  .click{
+    margin-bottom: -220px;
+    height: 40px;
+  }
+  .click2{
+    margin-bottom: -220px;
+    margin-left: 660px;
+    height: 40px;
+  }
+  .button{
+    margin-left: 10px;
+  }
+
+  .visual{
+width: 380px;
+height: 40px;
+  }
+  .visual1{
+width: 369px;
+height: 40px;
+  }
+  .visual2{
+    width: 759px;
+    height: 50px;
+  }
+}
+@media all and (min-width:800px) {
+  .heading {
+    height: 110px;
+  }
+   .heading h1 {
+     font-size: 140px;
+   }
+   .menu-button {
+     left: 700px;
+     width: 90px;
+     height: 70px;
+     top: 10px;
+   }
+   .menu1{
+     left: 720px;
+   }
+   .menu2{
+    left: 720px;
+  }
+  .menu3{
+    left: 720px;
+  }
+   .start{
+     top: 220px;
+   }
+   .start h2{
+     font-size: 90px;
+   }
+   .playful{
+     font-size: 60px;
+   }
+   section {
+     margin-top: -110px;
+     height: 1200px;
+   
+   }
+
+   .slider{
+     height: 1060px;
+     width:700px;
+     padding-top: 970px;
+   }
+   .slide img {
+     width: 700px;
+     
+   }
+   #inspire {
+     font-size: 70px;
+   }
+   #inspire v {
+     font-size: 40px;
+   }
+   #inspire span {
+     font-size: 190px;
+   }
+   .me {
+     width: 195px;
+     height: 95px;
+     font-size: 35px;
+     margin-left: 305px;
+   }
+   .copyright{
+     font-size: 30px;
+   }
+   .navigation-manual {
+     left: 20px;
+     top: 1000px;
+   }
+   .section1{
+     height: 2600px;
+     
+   }
+   .us span{
+     font-size: 120px;
+   }
+   .us{
+     font-size: 40px;
+   }
+   .us1{
+     font-size: 40px;
+   }
+   #vid{
+     width: 783px;
+   }
+   .button{
+     width: 100px;
+   }
+   .button1{
+     width: 100px;
+     margin-left: 530px;
+   }
+   
+   .section2 p{
+font-size: 30px;
+   }
+  .visual{
+    width: 409px;
+    height: 60px;
+    font-size: 20px;
+  }
+  .visual1{
+    height: 60px;
+    font-size: 20px;
+  }
+  .visual2{
+    width: 795px;
+    height: 60px;
+    font-size: 20px;
+  }
+  .baby{
+    font-size: 80px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    height: 210px;
+  }
+  .shop{
+    font-size: 80px;
+    height:210px;
+    background-size: 800px;
+  }
+  .birth{
+    font-size: 80px;
+    height: 189px;
+  }
+  .pass{
+    font-size: 80px;
+    height: 200px;
+    background-size: 800px;
+  }
+  .wed{
+    font-size: 80px;
+    height: 200px;
+    background-size: 800px;
+  }
+  .pics{
+    width: 783px;
+    height: 750px;
+  }
+  .click2{
+    margin-left: 638px;
+    margin-bottom: -330px;
+    height: 70px;
+  }
+  .click{
+    height: 70px;
+    margin-bottom: -330px;
+  }
+  .report{
+    margin-left: 130px;
+  }
+}
+
+
+@media all and (min-width:1024px) {
+  #vid{
+    width: 1010px;
+  }
+  .button1{
+    margin-left: 710px;
+    width: 150px;
+  }
+  .button{
+    width: 150px;
+    transform: rotate(180deg);
+  }
+
+  .heading {
+    height: 124px;
+  }
+   .heading h1 {
+     font-size: 170px;
+   }
+   .menu-button {
+     left: 940px;
+     width: 90px;
+     height: 70px;
+   }
+   .menu1{
+     left: 940px;
+     width: 70px;
+   }
+   .menu2{
+     left: 940px;
+     width: 70px;
+     top: 200px;
+   }
+   .menu3{
+    left: 940px;
+    width: 70px;
+    top: 300px;
+  }
+   .start{
+     top: 240px;
+   }
+   .start h2{
+     font-size: 130px;
+   }
+   .playful{
+     font-size: 70px;
+   }
+   section {
+     margin-top: -130px;
+     height: 1600px;
+   }
+
+   .slider{
+     height: 600px;
+     width: 800px;
+     margin-top: -400px;
+   }
+   .slide img {
+     width: 800px;
+     height: 600px;
+     
+   }
+   #inspire {
+     font-size: 85px;
+   }
+   #inspire v {
+     font-size: 45px;
+   }
+   #inspire span {
+     font-size: 190px;
+   }
+   .me {
+     width: 195px;
+     height: 95px;
+     font-size: 35px;
+     margin-left: 535px;
+   }
+   .copyright{
+     font-size: 30px;
+   }
+   .navigation-manual {
+     left: 100px;
+     top: 1100px;
+   }
+   .us {
+     font-size: 50px;
+     margin-top: 10px;
+   }
+   .us span{
+     font-size: 100px;
+   }
+   .us1{
+     font-size: 50px;
+   }
+   .me{
+     margin-left: 400px;
+   }
+   .section1{
+     height: 2200px;
+     margin-top: -130px;
+   }
+   .section2 p{
+font-size: 50px;
+   }
+   .report{
+     margin-left: 224px;
+   }
+   .baby{
+    font-size: 100px;
+    background-size: 1000px;
+  }
+  .shop{
+    font-size: 100px;
+    background-size: 1340px;
+    height: 230px;
+  }
+  
+  .birth{
+    font-size: 100px;
+    height: 220px;
+    background-size: 1320px;
+    background-repeat: no-repeat;
+  }
+  .pass{
+    font-size: 100px;
+    height: 240px;
+    background-size: 1320px;
+    background-repeat: no-repeat;
+  }
+  .wed{
+    font-size: 100px;
+    height: 260px;
+    background-size: 1320px;
+    background-repeat: no-repeat;
+  }
+  .pics{
+    width: 1420px;
+    height: 1000px;
+  }
+   #section3 img{
+    width: 1010px;
+  }
+  .visual{
+width: 500px;
+height: 60px;
+font-size: 20px;
+  }
+  .visual1{
+width: 505px;
+height: 60px;
+font-size: 20px;
+  }
+  .visual2{
+    width: 1015px;
+    height: 60px;
+font-size: 20px;
+  }
+  .pics{
+    width: 1010px;
+  }
+.click{
+  margin-bottom: -500px;
+}
+.click2{
+  margin-bottom: -500px;
+  margin-left: 910px;
+}
+.button1{
+  margin-left: 670px;
+}
+}
+@media all and (min-width:1280px) {
+ .heading {
+   height: 150px;
+   background-size: 1600px,400px;
+ }
+  .heading h1 {
+    font-size: 170px;
+  }
+  .menu-button {
+    left: 1100px;
+    width: 90px;
+    height: 70px;
+  }
+  .menu1{
+    width: 70px;
+    left: 1110px;
+    top: 100px;
+  }
+  .menu2{
+    width: 70px;
+    left: 1110px;
+    top: 190px;
+  }
+  .menu3{
+    width: 70px;
+    left: 1110px;
+    top: 290px;
+  }
+  .start{
+   position: absolute;
+   top: 200px;
+   left: 130px;
+  }
+  .start h2{
+    font-size: 90px;
+    align-items: center;
+  }
+  .playful{
+    font-size: 50px;
+  }
+  section {
+    margin-top: -150px;
+    margin-bottom: -90px;
+    height: 2000px;
+    margin-left: -9px;
+    margin-right: -9px;
+    height: 1270px;
+  }
+  .slider{
+    padding-top: 5px;
+    height: 600px;
+    width: 1240px;
+    margin-top: 390px;
+  }
+  .slide img {
+    width: 1240px;
+  }
+  #inspire {
+    font-size: 85px;
+  }
+  #inspire v {
+    font-size: 45px;
+  }
+  #inspire span {
+    font-size: 190px;
+  }
+  .me {
+    width: 195px;
+    height: 95px;
+    font-size: 35px;
+    margin-left: 535px;
+  }
+  .copyright{
+    font-size: 30px;
+  }
+  .navigation-manual {
+    left: 200px;
+  }
+  .section1 {
+    height: 2250px;
+
+  }
+  .us {
+    font-size: 60px;
+    margin-top: -15px;
+  }
+  .us span{
+    font-size: 90px;
+  }
+  .us1{
+    font-size: 55px;
+  }
+  .section1 ul{
+    font-size: 30px;
+  }
+  .baby{
+    font-size: 120px;
+    background-size: 1170px;
+  }
+  .shop{
+    font-size: 120px;
+    background-size: 1170px;
+    height: 260px;
+  }
+  
+  .birth{
+    font-size: 120px;
+    height: 230px;
+    background-size: 1180px;
+    background-repeat: no-repeat;
+  }
+  .pass{
+    font-size: 120px;
+    height: 260px;
+    background-size: 1180px;
+    background-repeat: no-repeat;
+  }
+  .wed{
+    font-size: 120px;
+    height: 260px;
+    background-size: 1180px;
+    background-repeat: no-repeat;
+  }
+  .section2 p{
+    font-size: 60px;
+    align-items: center;
+  }
+  .report{
+    margin-left: 220px;
+    background-size: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 870px;
+  }
+  .report form :last-child{
+    margin-left: 310px;
+  }
+  .report input{
+    width: 800px;
+    font-size: 40px;
+  }
+  .report textarea{
+    width: 800px;
+    font-size: 40px;
+  }
+  #vid{
+    width: 1248px;
+  }
+  .button1{
+    margin-left: 950px;
+  }
+  #section3 img{
+    width: 312px;
+  }
+  .pics{
+    width: 1260px;
+    height: 1000px;
+  }
+  .click{
+    margin-bottom: -500px;
+  }
+  .click2{
+    margin-left: 1180px;
+    margin-bottom: -500px;
+  }
+  #vid{
+    width: 1270px;
+  }
+  .visual{
+    width: 630px;
+    height: 70px;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .visual1{
+    width: 625px;
+    height: 70px;
+    margin-left: 5px;
+    font-size: 30px;
+  }
+  .visual2{
+    width: 1270px;
+    margin-left: 1px;
+    height: 70px;
+    font-size: 30px;
+  }
+}
+@media all and (min-width:1366px) {
+  .start{
+    position: absolute;
+    
+  }
+  .section1 li{
+border-radius: 100px;
+  }
+  .slider{
+    border-radius: 100px;
+  }
+  .start h2{
+    font-size: 120px;
+  }
+
+  section {
+margin-top: -150px;
+height: 1300px;
+  }
+  .me {
+    width: 240px;
+  }
+  .frame {
+    width: 1000px;
+    margin-left: -183px;
+  }
+  .section1{
+    margin-top: -150px;
+    height: 2200px;
+  }
+  #vid{
+    width: 1340px;
+  }
+  #section3 img{
+    width: 440px;
+  }
+  .visual1{
+    width: 689px;
+  }
+  .visual2{
+    width: 1330px;
+  }
+  .baby{
+    background-repeat: no-repeat;
+    background-size: 1250px;
+    height: 200px;
+  }
+  .shop{
+    background-size: 1250px;
+  }
+  .birth{
+    background-size: 1250px;
+    background-repeat: no-repeat;
+  }
+  .pass{
+    background-size: 1250px;
+  }
+  .wed{
+    background-size: 1250px;
+  }
+  .pics{
+    width: 1329px;
+  }
+  .click{
+   height: 90px;
+  }
+  .click2{
+   height: 90px;
+   margin-left: 1238px;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .heading{
+    height: 200px;
+    background-size: 1600px,400px;
+  }
+  .heading h1 {
+    font-size: 200px;
+  }
+  .menu-button {
+    width: 150px;
+    height: 100px;
+    top: 45px;
+    left: 1280px;
+  }
+  .menu1{
+    width: 100px;
+    left: 1297px;
+    top: 140px;
+  }
+  .menu2{
+    width: 100px;
+    left: 1297px;
+    top: 270px;
+  }
+  .menu3{
+    width: 100px;
+    left: 1297px;
+    top: 400px;
+  }
+  .start{
+    position: absolute;
+    top: 290px;
+    left: 190px;
+  }
+  
+  .start h2 {
+    font-size: 100px;
+    align-items: center;
+    
+  }
+  .playful {
+    font-size: 70px;
+  }
+  section {
+    margin-top:-510px ;
+    height: 1800px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .slide img{
+    height:600px;
+    width: 1300px;
+  }
+  .slider{
+    padding-top: 5px;
+    height: 600px;
+    width: 1300px;
+    margin-top: 760px;
+  }
+  #inspire {
+    font-size:90px;
+  }
+  #inspire v{
+    font-size: 50px;
+  }
+  #inspire span{
+    font-size: 200px;
+  }
+  .me {
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+    margin-left: 610px;
+  }
+  .copyright{
+    font-size: 30px;
+  }
+  .navigation-manual{
+    left: 290px;
+
+  }
+  .us1{
+    font-size: 65px;
+  }
+  .section2 p{
+    font-size: 70px;
+    align-items: center;
+  }
+  .report{
+    margin-left: 270px;
+    background-size: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 870px;
+  }
+  .report form :last-child{
+    margin-left: 320px;
+  }
+  .report input{
+    width: 800px;
+    font-size: 40px;
+  }
+  .report textarea{
+    width: 800px;
+    font-size: 40px;
+  }
+  #vid{
+    width: 1410px;
+  }
+  .button1{
+    margin-left: 1090px
+  }
+  #section3 img{
+    width: 350px;
+  }
+  .visual{
+    width: 700px;
+    height: 70px;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  .visual1{
+    width: 700px;
+    height: 70px;
+    margin-left: 5px;
+    font-size: 30px;
+  }
+  .visual2{
+    width: 1410px;
+    margin-left: 1px;
+    height: 70px;
+    font-size: 30px;
+  }
+  .us{
+    font-size: 70px;
+    margin-top: -10px;
+  }
+  .section1{
+    height: 2990px;
+  }
+  .us span{
+    font-size: 170px;
+    
+  }
+  .baby{
+    font-size: 120px;
+    background-size: 1370px;
+    height: 290px;
+  }
+  .shop{
+    font-size: 140px;
+    background-size: 1370px;
+    height: 298px;
+  }
+  
+  .birth{
+    font-size: 140px;
+    height: 290px;
+    background-size: 1370px;
+    background-repeat: no-repeat;
+  }
+  .pass{
+    font-size: 140px;
+    height: 290px;
+    background-size: 1380px;
+    background-repeat: no-repeat;
+  }
+  .wed{
+    font-size: 140px;
+    height: 290px;
+    background-size: 1399px;
+    background-repeat: no-repeat;
+  }
+  .pics{
+    width: 1420px;
+    height: 1000px;
+  }
+  .click{
+    margin-bottom: -500px;
+    height: 90px;
+  }
+  .click2{
+    margin-left: 1238px;
+    margin-bottom: -500px;
+    height:90px;
+  }
+  #vid{
+    width: 1428px;
+  }
+}

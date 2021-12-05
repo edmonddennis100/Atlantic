@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome To Atlantic</title>
+        <link href="Art.css" rel="stylesheet"> 
+        <script src="main.js"></script>
+          <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+          
+    </head>
+    <body>
+        <!--The heading part of the page starts-->
+        <header>
+            <!--This code deals with the menu button-->
+            
+              <!--Menu button ends-->
+              <!--This deals with the company logo-->
+              <div class="heading">
+                <h1 align="center"><b>ATLANTIC</b></h1>
+              </div>
+            </header>
+            <!--Heading part ends-->
+            <div class="start">
+               <h2 align="center">WELCOME TO ATLANTIC BEACH</h2>
+               </div>
+            <!---PICture box starts-->
+            <section>
+                <div class="slider">
+                    <div class="slides">
+                        <!--Radio button starts-->
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+                        <input type="radio" name="radio-btn" id="radio5">
+                        <input type="radio" name="radio-btn" id="radio6">
+                        <!--Radio button ends-->
+                        <!--Slider images start-->
+                        <div class="slide  first">
+                            <img src="IMG_20210711_115258_101.jpg" alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="IMG_20210711_115609_649.jpg"  alt="">
+                        </div>
+                        <div class="slide">
+                            <img src="IMG_20210725_124246_583.jpg"  alt="">
+                        </div>
+                        <div class="slide">
+                          <img src="IMG_20210711_115616_658.jpg"  alt="">
+                      </div>
+                      <div class="slide">
+                        <img src="IMG_20210725_080227_845.jpg"  alt="">
+                    </div>
+                        <div class="slide">
+                            <img src="IMG_20210725_115322_048.jpg"  alt="">
+                        </div>
+                        <!--Slide images end-->
+                        <!--Automativ navigation starts-->
+                        <div class="navigation-auto">
+                            <div class="auto-btml"></div>
+                            <div class="auto-btm2"></div>
+                            <div class="auto-btm3"></div>
+                            <div class="auto-btm4"></div>
+                            <div class="auto-btm5"></div>
+                            <div class="auto-btm6"></div>
+                        </div>
+                        <!--Automatic navigation ends-->
+                    </div>
+                    <!--manual navigation starts-->
+                    <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                        <label for="radio5" class="manual-btn"></label>
+                        <label for="radio6" class="manual-btn"></label>
+                    </div>
+                    <!--manual navigation ends-->
+                </div>
+                <!--Javascript enable the images to change by itself-->   
+                <script type="text/javascript">
+                var counter = 1;
+                setInterval(function(){
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if(counter >6){
+                        counter = 1;
+                    }
+                }, 5000);
+                </script>
+                <!--Java ends here-->
+        </section>
+        <!--First section ends here-->
+        <div class="section1">
+          <p class="us" align="center"><span class="playful"> Atlantic Beach Resort</span><br>
+            Is located on Atlantic street,Lower Buchanan,
+            behind Hotel Buchanan,Grand Bassa county</p>
+            <p class="us" align="center"><i>Come and have your</i></p>
+          <ul style="-webkit-animation:come 70s infinite alternate;" align="center">
+            <li class="baby">Baby Shower</li>
+            <li class="shop">Workshop<br><img src="workshop.png"</li>
+            <li class="birth">Birthday party<br><img src="birthday.png"/></li>
+            <li class="pass">Repass<br><img src="repass.png"></li>
+            <li class="wed">Wedding reception<br><img src="wedding.png"></li>
+          </ul>
+          <p class="us1" align="center">At Atlantic Beach <br>We have the <span style="color:#FF3030"><i>best grill fish  </i></span> in Buchanan.<img src="fish.png"</p>
+            <p class="us1" align="center">We also have <span style="color:orange">ice cream<img src="cream.png"></span>,<span style="color: #8A360F">
+              Roasted goat</span>,<span style="color: #9e2a6e">
+              Roasted chicken<img src="chick.png"</span>
+            And drinks of all kinds.</p>
+            <p class="us1" align="center" >We are open from 12 noon to 12 midnight.</p>
+        </div>
+        <div class="section2">
+          <h2 align="center">Contact Us</h2>
+          <p><img src="call.png"/>Phone numbers: 0770112705/0886464434</p>
+          <p><img src="mail.png"/>E-mail address:awarp1988@gmail.com</p>
+          <div class="report">
+          <form action="www.awarp1988@gmail.com" method="POST">
+            <input name="name" placeholder="Name" type="text" required /><br/>
+            <input name="email" placeholder="Email" type="email" required /><br/>
+            <textarea name="message" placeholder="Message" required ></textarea><br/>
+            <input type="submit" value="SEND" class="submit" />
+        </form>
+          </div>
+        </div>
+        <div style="display: none;" id="frame">
+          <img class="click" onclick='southafrica2()' src="81-817874_next-button-png.png">
+             <img class="click2" onclick='southafrica()'src="81-817874_next-button-png.png">
+         <img class="pics" id="change" src="IMG_20210717_164304_053.jpg">
+         </div>
+          <button class="me" type="button" onclick="lost()"><b>PHOTOS</b></button>
+        <!--Footer starts-->
+        <footer>
+            <div id="inspire">
+                <p align="center">Inspired by the beauty of art and entertainment<br>
+                <v>At Atlantic Beach we give you the best services your money can buy<br> Contact us</v><br><span class="playful">TODAY</span></p>
+              </div>
+              <button class="me" type="button" onclick= "iframe()"><b>Videos</b></button>
+              
+              
+                      <div class = "copyright">
+                        &copy; 2021 Atlantic Beach. All rights reserved.
+                      </div>
+                      <!--Copy right ends-->
+                </body>
+        </footer>
+    </body>
+</html>
